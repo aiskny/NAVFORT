@@ -20,6 +20,12 @@ Feature: Fleet Management login feature
     When user login as "storemanager"
     Then user should land on the "Dashboard" page
 
+  Scenario: "Invalid username or password." message should be displayed for invalid credentials
+    When user login with "invalidUserName" and "invalidPassword"
+    Then "Invalid username or password." message should be displayed for invalid credentials
+
+
+
 
 
 
