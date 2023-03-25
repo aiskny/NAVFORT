@@ -9,7 +9,7 @@ import utilities.BrowserUtils;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
-public class LoginFeature {
+public class LoginSteps {
     LoginPage loginPage = new LoginPage();
 
     @When("user login with {string} and {string}")
