@@ -1,8 +1,6 @@
 
 @LogoutFunctionality
 Feature: Logout Functionality
-  Background:
-    Given user is on the login page
 
 
 Scenario Outline: <user> can log out successfully
