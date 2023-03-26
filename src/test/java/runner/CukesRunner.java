@@ -16,7 +16,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "step_definitions",
         dryRun = false,
-        tags = "@NAV10-437"
+        tags ="@NAV10-438"
+        //"@NAV10-437"
 
 
 )
