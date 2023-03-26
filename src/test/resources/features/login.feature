@@ -1,6 +1,7 @@
 @NAV10-437
 Feature: Navfort login features
 
+
   Background:
     Given user is on the login page
 
